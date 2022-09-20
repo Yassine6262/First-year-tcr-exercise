@@ -48,3 +48,29 @@ list-style-type: circle;
 font-size: 24px;  
 font-family: Verdana;
 }
+body{
+  background-color: black;
+  background-image: url(./img/hacker.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+p{
+  color: rgb(255, 255, 255);
+  
+}
+li{
+  color: rgb(4, 255, 0);
+  font-weight: bold;
+} 
+footer {
+  
+    text-align:left;
+    padding: 60px;
+    background-color:#00a8c7;
+    
+    
+}
+
+
+
