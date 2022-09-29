@@ -22,6 +22,12 @@ nav ul {
   align-items: center;
   list-style-type: none;
 }
+  ul,ol
+  {
+    list-style-type: none;
+
+  }
+
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
@@ -60,17 +66,74 @@ p{
   
 }
 li{
-  color: rgb(4, 255, 0);
+  color: rgb(255, 255, 255);
   font-weight: bold;
+  text-align:center;
+} 
+
+footer {
+     text-align:center;
+    padding: 1px;
+    background-color:#00a8c7;
+}
+body{
+  background-color: black;
+  background-image: url(./img/hacker.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+p{
+  color: rgb(255, 255, 255);
+  
+}
+li{
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+} 
+footer {color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align:center;
 } 
 footer {
   
-    text-align:left;
-    padding: 60px;
-    background-color:#00a8c7;
-    
-    
+  text-align:center;
+  padding: 1px;
+  background-color:#00a8c7;
 }
-
-
-
+nav {
+position: -webkit-sticky; 
+position: sticky;
+top: 0;
+}
+body{
+position: -webkit-sticky;
+min-height: 100vh;
+}
+footer{
+position: -webkit-sticky;
+position: sticky;
+bottom: 0;
+}
+div.a{
+border: 1px solid black;
+padding: 1px;
+width: 200px;
+height: 200px;
+text-align: justify;
+}
+.java{
+  float: right;
+}
+.html{
+  float: left;
+}
+.css{
+  float:right
+}
+.csharp{
+  float:left
+}
+.php{
+  float: right;
+}
